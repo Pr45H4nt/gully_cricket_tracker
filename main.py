@@ -103,6 +103,7 @@ class game:
     def isover(self):
         if self.total_balls %6 == 0:
             self.current_over.clear()
+            self.striker , self.runner = self.runner , self.striker
             return True
         return False
 
