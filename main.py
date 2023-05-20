@@ -137,7 +137,7 @@ class game:
         if self.target == None:
             return f"""
                 First Batting Team - {self.score}-{self.wickets}
-                -- {self.striker.status()} 
+                --🏏 {self.striker.status()} 
                    {self.runner.status()} 
                    Current RunRate - {self.current_rr()}
                    Current Over - {self.overs()}
@@ -146,7 +146,7 @@ class game:
             """
         return f"""
                 Chasing Team - {self.score}-{self.wickets}
-                -- {self.striker.status()} 
+                --🏏 {self.striker.status()} 
                    {self.runner.status()} 
                    Current RunRate - {self.current_rr()}
                    Required RunRate - {self.required_rr()}
