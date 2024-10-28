@@ -65,7 +65,3 @@ There is a minor bug involving bowler overs being occasionally missed, but this 
 ## Author
 
 Prashant Paneru
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
